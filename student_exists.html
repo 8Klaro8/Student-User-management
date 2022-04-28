@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <p>The user with htis email: <b>{{email}}</b> exists already</p>
+    <p>Go back to create page: <a href="{{ url_for('create') }}">Create</a></p>
+</div>
+
+{% endblock %}
